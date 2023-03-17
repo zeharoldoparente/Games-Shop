@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 16px;
+}
+
+section {
+    padding: 24px auto;
+    color: #182c61;
+}
+
+section h2 {
+    margin-bottom: 12px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store {
+    margin-right: 32px;
+}
