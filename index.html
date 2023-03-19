@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Games Shop - A sua loja de games</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,10 +20,10 @@
             <nav>
                 <ul>
                     <li >
-                        <a href="#">Sobre nós</a>
+                        <a href="#about">Sobre nós</a>
                     </li>
                     <li >
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -44,9 +48,51 @@
         <div class="container">
             <h2>Contato</h2>
             <div class="contact-methods">
-                <!--Sub-Sessões-->
+                <div>
+                    <h3>Fale conosco</h3>
+                        <form>
+                            <input type="text" placeholder="Seu nome" required/>
+                            <input type="email" placeholder="Seu e-mail" required/>
+                            <input type="telephone" placeholder="Seu telefone (Opcional)"/>
+                            <textarea placeholder="Sua mensagem aqui"></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" title="Siga-nos no Instagram">
+                                    <img src="./images/instagram.png" alt="Logo do Instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-nos no Facebook">
+                                    <img src="./images/facebook.png" alt="Logo do Facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Visite o nosso canal do Youtube">
+                                    <img src="./images/youtube.png" alt="Logo do youtube">
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                        <p>
+                            Rua dos bobos nº 0, Vila HTML - Cuiabá-MT
+                        </p>
+                </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Shops - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
